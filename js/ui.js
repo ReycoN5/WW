@@ -950,6 +950,7 @@ const UI = {
         </button>
       </div>
       <button class="attach-sheet-cancel" id="settings-sheet-cancel">Отмена</button>
+      <div class="settings-sheet-version">v0.10.1</div>
     `;
 
     sheet.querySelectorAll('.attach-sheet-option').forEach(btn => {
