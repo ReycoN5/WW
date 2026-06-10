@@ -771,6 +771,9 @@ a {
   display: flex;
   width: 100%;
   margin: 1px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
 .message.sent { justify-content: flex-end; }
